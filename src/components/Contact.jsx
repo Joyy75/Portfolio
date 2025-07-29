@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <button
                 onClick={handleSend}
-                className="bg-gradient-to-r  from-green-400 to-blue-500 text-white hidden md:inline
+                className="bg-gradient-to-r  from-green-400 to-blue-500 text-white  md:inline
             transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full"
               >
                 Send

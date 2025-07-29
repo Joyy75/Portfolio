@@ -23,7 +23,7 @@ const Navbar = () => {
           </a>
         </div>
 
-        <div className="hidden md:block">
+        <div className="hidden  sm:block md:block">
           <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fyes_im_joyy%2F%3Figsh%3DM21uam15Ynpya2oy%26utm_source%3Dqr&is_from_rle">
             <button className="bg-gradient-to-r from-green-400 to-blue-500 text-white px-4 py-2 rounded-full transform transition-transform duration-300 hover:scale-90 sm: ">
               Connect Me

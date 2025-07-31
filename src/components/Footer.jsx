@@ -50,7 +50,7 @@ const Footer = () => {
           justify-between items-center"
         >
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Yousaf. All rights reserved.
+            &copy; {new Date().getFullYear()} Joyy. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
             <a href="https://www.facebook.com/juu.yong.9?mibextid=wwXIfr&rdid=IYSph9b8hQ1nh6p9&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1DaCy5Qh2T%2F%3Fmibextid%3DwwXIfr#" className="text-gray-400 hover:text-white">

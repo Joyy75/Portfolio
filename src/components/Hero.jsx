@@ -18,7 +18,7 @@ const Hero = () => {
           sequence={[
             ' FrontEnd Developer',
             2000,
-            ' UI Designer.....',
+            ' UI UX Designer...',
             3000,
             ' React Developer',
             2000,
@@ -43,7 +43,7 @@ const Hero = () => {
           className="bg-gradient-to-r from-green-400 to-blue-500 text-white
             transform transition-transform duration-300 hover:scale-90 px-4 py-2 rounded-full"
         >
-          Contact Me
+          Contact 
         </button>
         <a href="resume.pdf" target="_blank" rel="noopener noreferrer">
           <button className="bg-gradient-to-r from-pink-500 to-blue-500 text-white transform transition-transform duration-300 hover:scale-90 px-4 py-2 rounded-full">

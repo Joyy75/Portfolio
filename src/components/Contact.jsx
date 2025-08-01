@@ -7,15 +7,19 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [name, setName] = useState("");
 
-  const handleSend = () => {
-    if (!email.trim() || !message.trim()) {
-      toast.error("Please fill in both email and message.");
-      return;
-    }
-    toast.success("Message sent successfully!");
-    setEmail("");
-    setMessage("");
-  };
+ const handleSend = (e) => {
+  e.preventDefault(); 
+
+  if (!email.trim() || !message.trim()) {
+    toast.error("Please fill the form correctly!");
+    return;
+  }
+
+  toast.success("Success!");
+  setEmail("");
+  setMessage("");
+};
+
   return (
     <div className="bg-black text-white py-20" id="contact">
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
@@ -94,6 +98,7 @@ const Contact = () => {
               </div>
               <button
                 onClick={handleSend}
+                // type="submit"
                 className="bg-gradient-to-r  from-green-400 to-blue-500 text-white  md:inline
             transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full"
               >

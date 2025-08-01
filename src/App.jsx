@@ -8,6 +8,7 @@ import Navbar from './components/Navbar.jsx'
 import Projects from './components/Project.jsx'
 import Service from './components/Service.jsx'
 import { Toaster } from "react-hot-toast";
+import Learning from "./components/Learning.jsx";
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
         <About />
         <Service />
         <Projects />
+        <Learning />
         <Contact />
         <Footer />
     </div>

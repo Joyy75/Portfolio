@@ -50,7 +50,7 @@ const learningItems = [
 
 const Learning = () => {
   return (
-    <section className="bg-black text-white py-20" id="project">
+    <section className="bg-black text-white py-20" id="learning">
       <div className="container mx-auto px-6 md:px-12 lg:px-20">
         <h2 className="text-4xl font-bold text-center mb-12">
           What I'm Learning Now 🚀

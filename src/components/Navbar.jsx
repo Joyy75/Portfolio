@@ -18,9 +18,12 @@ const Navbar = () => {
           <a href="#project" className="hover:text-gray-400">
             Projects
           </a>
-          <a href="#contact" className="hover:text-gray-400">
-            Contact
+          <a href="#learning" className="hover:text-gray-400">
+            Learning
           </a>
+          {/* <a href="#contact" className="hover:text-gray-400">
+            Contact
+          </a> */}
         </div>
 
         <div className="hidden  sm:block md:block">

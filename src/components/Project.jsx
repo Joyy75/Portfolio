@@ -17,7 +17,7 @@ const projects = [
     name: "Task Manager App",
     status: "Finished",
     image: todo,
-    project: "https://todobyjoyy.netlify.app (https://todobyjoyy.netlify.app/)",
+    project: "https://todobyjoyy.netlify.app/",
   },
   {
     id: 3,

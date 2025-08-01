@@ -17,7 +17,7 @@ const COLORS = ["#00C49F", "#1f2937"]; // Green + dark slate background
 const CustomTooltip = ({ active, payload }) => {
   if (active && payload && payload.length) {
     return (
-      <div className="bg-slate-800 text-white px-4 py-2 rounded-md shadow-md border border-slate-600">
+      <div className="bg-slate-800 text-white px-4 py-2 rounded-md shadow-md">
         <p className="font-semibold">{payload[0].name}</p>
         <p>{payload[0].value}%</p>
       </div>

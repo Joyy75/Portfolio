@@ -18,6 +18,7 @@ const Contact = () => {
   toast.success("Success!");
   setEmail("");
   setMessage("");
+  setName("");
 };
 
   return (

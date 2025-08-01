@@ -2,7 +2,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="bg-black text-white px-4 sm:px-8 md:px-16">
+    <nav className="bg-black text-white px-4 sm:px-8 md:px-16 lg:px-24 py-4 shadow-lg">
       <div className="max-w-7xl mx-auto py-4 flex flex-wrap justify-between items-center">
         <div className="text-2xl font-bold md:text-4xl">Joyy</div>
         <div className="flex flex-row flex-wrap items-center gap-4">
@@ -10,7 +10,7 @@ const Navbar = () => {
             Home
           </a>
           <a href="#about" className="hover:text-gray-400">
-            About Me
+            About
           </a>
           <a href="#service" className="hover:text-gray-400">
             Services
@@ -19,7 +19,7 @@ const Navbar = () => {
             Projects
           </a>
           <a href="#learning" className="hover:text-gray-400">
-            Learning
+            Learn
           </a>
           {/* <a href="#contact" className="hover:text-gray-400">
             Contact

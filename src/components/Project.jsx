@@ -2,7 +2,7 @@ import React from "react";
 import invc from "../assets/inv.png";
 import todo from "../assets/todo.png";
 import vch from "../assets/vch.png";
-import shop from "../assets/shop.png";
+import shop from "../assets/shopify.png";
 import vam from "../assets/vam.png";
 const projects = [
   {
@@ -22,9 +22,9 @@ const projects = [
   {
     id: 3,
     name: "Ecommerce App",
-    status: "Progressing",
+    status: "Finished",
     image: shop,
-    project: "https://shoppingappbyjoyy.netlify.app/",
+    project: "https://theshopifybyjoyy.netlify.app/",
   },
     {
     id: 4,
